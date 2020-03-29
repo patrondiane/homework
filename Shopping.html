@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shopping</title>
+</head>
+
+<body>
+	<div class="header">
+		<img src="How-to-Tell-the-Difference-Between-Hand-Lettering-Calligraphy-and-Typography.jpg">
+  	</div>
+
+	<div class="topnav">
+  		<a href="Index.html">Index</a>
+  		<a href="Tasks.html">Tasks</a>
+  		<a href="Shopping.html">Shopping</a>
+	</div>
+	
+	<div class="row">
+  		<div class="column side">
+    		
+  		</div>
+	
+
+	<div class="column middle">
+		<form>	
+			
+
+			<input type="checkbox" id="Is important" name="Is important" value="Is important">
+ 			<label for="Is important">Is important</label><br>
+  			<input type="checkbox" id="Can be bought in groceries" name="Can be brought in groceries" value="Can be bought in groceries">
+ 			<label for="Can be bought in groceries">Can be bought in groceries</label><br>
+			<label for="item">Item to buy:</label><br>
+			<input type="text" id="item" name="item">
+			
+			
+		</form>
+			
+		<button type="button" onclick="myFunction()">Insert option</button>
+
+		<script>
+			function myFunction() {
+  			var x = document.getElementById("item");
+  			var option = document.getElementById("option");
+  			option.text = document.getElementById("item") ;
+  			x.add(option);
+			}
+		</script>
+
+	</div>
+	</div>
+	
+	
+	
+</body>
+</html>
